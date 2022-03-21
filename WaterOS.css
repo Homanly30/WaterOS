@@ -1,0 +1,54 @@
+body {
+												margin: 0px;
+												background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTguso93vu-77-5SAu9q45LEYRa0oqQ3ldSpw&usqp=CAU');
+												background-size: cover;
+                        user-select: none;
+								} 
+								#time {
+												transform: translateX(50%) translateY(50%);
+												position: absolute;
+												right: 50%;
+												bottom: 73%;
+												color: white;
+												font-weight: lighter;
+												white-space: nowrap;
+								}
+								#time-display {
+												font-size: 300%;
+												display: inline;
+								}
+								#daytime-display {
+												font-size: 100%;
+												display: inline;
+												font-family: "benchNine", sans-serif;
+								}
+								#swipe-up {
+												transform: translateX(50%) translateY(50%);
+												position: absolute;
+												text-align: center;
+												right: 50%;
+												bottom: 7%;
+												color: white;
+												font-size: 100%;
+												font-weight: lighter;
+												font-family: 'BenchNine', sans-serif;
+								}
+								#status-bar {
+												touch-action: none;
+												background-color: black;
+												color: white;
+												text-align: right;
+												font-size: 80%;
+												position: fixed;
+												width: 100%;
+								}
+								#battery-bar {
+												margin-top: 2px;
+												height: 25px;
+												width: 45px;
+								}
+								#battery-display {
+												margin-top: 8px;
+												float: right;
+												display: inline;
+								}
