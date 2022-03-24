@@ -137,7 +137,7 @@ var today;
 								var barYt = document.getElementById("search-yt");
                 var backBtn = document.getElementById("back-button");
                 backBtn.addEventListener("click", function() {
-                  window.history.go(-1);
+                  window.location.assign("/WaterOS/index.html");
                 })
 								barYt.addEventListener("click", function() {
 												window.location.assign("https://www.youtube.com ");
