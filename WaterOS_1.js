@@ -223,12 +223,6 @@ var today;
 												})
 								})
 								var checkDirection = setInterval(function() {
-								if (1 == 0) {
-																if (run < 1) {
-																run++;
-																				window.location.assign("/index.html");
-																}
-												}
 												if (swipeDirection == "stateDown") {
 																if (run1 < 1) {
 																run1++;
